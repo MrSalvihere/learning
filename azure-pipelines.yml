@@ -28,4 +28,4 @@ steps:
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'drop04022024'
-    publishLocation: '$(Build.ArtifactStagingDirectory)'
+    publishLocation: 'Container'
